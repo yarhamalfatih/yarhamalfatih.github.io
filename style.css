@@ -1,0 +1,55 @@
+body{
+	background-color: black;
+	color: lime;
+	font-family: monospace;
+}
+
+.terminal{
+	width: 80%;
+	max-width: 700px;
+	margin: 50px auto;
+	border: 2px solid green;
+	border-radius: 5px;
+	box-shadow: 0 0 20px green;
+}
+
+.terminal-header{
+	background-color: green;
+	font-weight: bold;
+	color: black;
+	padding: 5px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.terminal-body{
+	padding: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+    .terminal-output {
+        overflow-x: auto; /* Tambahkan scrollbar horizontal saat tampilan di perangkat mobile */
+    }
+}
+
+.terminal-output{
+	margin: 5px 0;
+}
+
+.terminal-input{
+	display: flex;
+	align-items: center;
+	padding: 5px 10px;
+}
+
+.terminal-prompt{
+	margin-right: 5px;
+}
+
+.terminal-input input{
+	background-color: transparent;
+	border: none;
+	color: lime;
+	outline: none;
+	font-family: monospace;
+}
