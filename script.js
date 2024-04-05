@@ -16,7 +16,7 @@ function executeCommand(command) {
             output = "Perintah tersedia: <br> - help: Menampilkan list perintah <br> - about: Tentang saya <br> - clear: Membersihkan terminal";
             break;
         case 'about':
-            output = "<div style='display: flex; align-items: center;'><img src='assets/yarham.jpg' alt='Your Image' style='max-width: 30%; margin-top: 20px;'><p style='margin-left: 20px;'>I'm a Software Engineer</p></div>";
+            output = "<div style='display: flex; align-items: center;'><img src='assets/yarham.jpg' alt='Your Image' style='max-width: 50%; margin-top: 20px;'><p style='margin-left: 45px;'>I'm a Software Engineer</p></div>";
             break;
         case 'clear':
             // Hapus semua output kecuali teks awal dan teks di pre-terminal-output
