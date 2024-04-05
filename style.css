@@ -28,7 +28,7 @@ body{
 
 @media only screen and (max-width: 900px) {
     .terminal-output {
-        overflow-x: auto; /* Tambahkan scrollbar horizontal saat tampilan di perangkat mobile */
+        overflow-x: auto;
     }
 }
 
